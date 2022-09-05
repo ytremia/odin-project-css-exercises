@@ -34,10 +34,23 @@ body {
   padding: 16px;
 }
 
+.card-grouped {
+  padding: 32px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 16px;
+  max-width: 300px;
+  max-height: auto;
+  display: flex;
+  flex: 1 1 auto;
 }
 
 a {
